@@ -14,9 +14,12 @@
    Add config script into project-folder > src > firebase.js file
 7. rfce – Creates the snippet of the component
 8. Install material-UI (material-ui.com or mui.com)
-   npm install @mui/material @emotion/react @emotion/styled
+
+- npm install @mui/material @emotion/react @emotion/styled
+
 9. Install material-UI icons
-   npm install @mui/icons-material
+
+- npm install @mui/icons-material
 
 # Getting Started with Create React App
 
