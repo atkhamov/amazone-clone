@@ -1,17 +1,26 @@
 # Instructions
 
 1. Create React app using the command below:
-   npx create-react-app amazon-clone
-2. firebase.google.com  this is the hosting server with database
+
+- npx create-react-app amazon-clone
+
+2. firebase.google.com --> this is the hosting server with database
 3. We will use Firebase Cloud Functions in order to connect to Stripe (and get payments)
-4. Start the project: npm start
+4. Start the project:
+
+- npm start
+
 5. Add Firebase to your web app
 
 - Register app
-- Install Firebase CLI: npm install -g firebase-tools
+- Install Firebase CLI:
+- npm install -g firebase-tools
 
 6. Project settings
-   Add config script into project-folder > src > firebase.js file
+   Add config script into
+
+- project-folder > src > firebase.js file
+
 7. rfce – Creates the snippet of the component
 8. Install material-UI (material-ui.com or mui.com)
 
