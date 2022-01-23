@@ -30,6 +30,10 @@
 
 - npm install @mui/icons-material
 
+10. Install React Router Dom (as switch is replaced from react-router-dom in v6, we are going to install the v5). Here, interesting to note that if we want to use react-router-dom v6 in this application, then we have to use Routes instead of Switch, but in that case we have to modify our code little bit in App.js according to the documentation
+
+### `npm install react-router-dom@5.2.0`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
