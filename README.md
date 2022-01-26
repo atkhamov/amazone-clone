@@ -2,37 +2,42 @@
 
 1. Create React app using the command below:
 
-- npx create-react-app amazon-clone
+### `npx create-react-app amazon-clone`
 
 2. firebase.google.com --> this is the hosting server with database
 3. We will use Firebase Cloud Functions in order to connect to Stripe (and get payments)
 4. Start the project:
 
-- npm start
+### `npm start`
 
 5. Add Firebase to your web app
 
 - Register app
 - Install Firebase CLI:
-- npm install -g firebase-tools
+
+### `npm install -g firebase-tools`
 
 6. Project settings
    Add config script into
 
-- project-folder > src > firebase.js file
+#### `project-folder > src > firebase.js file`
 
 7. rfce – Creates the snippet of the component
 8. Install material-UI (material-ui.com or mui.com)
 
-- npm install @mui/material @emotion/react @emotion/styled
+### `npm install @mui/material @emotion/react @emotion/styled`
 
 9. Install material-UI icons
 
-- npm install @mui/icons-material
+### `npm install @mui/icons-material`
 
 10. Install React Router Dom (as switch is replaced from react-router-dom in v6, we are going to install the v5). Here, interesting to note that if we want to use react-router-dom v6 in this application, then we have to use Routes instead of Switch, but in that case we have to modify our code little bit in App.js according to the documentation
 
 ### `npm install react-router-dom@5.2.0`
+
+11. In order to work with currencies in Subtotal.js and Checkout.js components we need to install `react-currency-format` library
+
+### `npm install react-currency-format`
 
 # Getting Started with Create React App
 
